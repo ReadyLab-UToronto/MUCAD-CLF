@@ -1,0 +1,156 @@
+,Event Time,Document,Tab,User,Description
+1,2021-04-09 23:22:11,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY closed by USER1
+2,2021-04-09 23:22:11,Bar Mechanism,N/A,user1@xxx.com,Close document
+3,2021-04-09 23:21:31,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY opened by USER1
+4,2021-04-09 23:21:17,Bar Mechanism,N/A,user1@xxx.com,Open document
+5,2021-04-03 00:08:24,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO closed by USER1
+6,2021-04-03 00:08:24,Bar Mechanism,N/A,user1@xxx.com,Close document
+7,2021-04-02 23:12:20,Bar Mechanism,Lead Screw,user1@xxx.com,Update Part Metadata
+8,2021-04-02 23:12:20,Bar Mechanism,Bar Wavy Model,user1@xxx.com,Update Part Metadata
+9,2021-04-02 23:12:20,Bar Mechanism,Bar Wavy Model,user1@xxx.com,Update Part Metadata
+10,2021-04-02 23:12:19,Bar Mechanism,Part Studio (2),user1@xxx.com,Update Part Metadata
+11,2021-04-02 23:12:19,Bar Mechanism,Part Studio 1,user1@xxx.com,Update Part Metadata
+12,2021-04-02 23:12:19,Bar Mechanism,Part Studio (2),user1@xxx.com,Update Part Metadata
+13,2021-04-02 23:12:19,Bar Mechanism,Lead Screw,user1@xxx.com,Update Part Metadata
+14,2021-04-02 23:12:19,Bar Mechanism,Part Studio 1,user1@xxx.com,Update Part Metadata
+15,2021-04-02 23:12:16,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+16,2021-04-02 23:12:16,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+17,2021-04-02 23:12:14,Bar Mechanism,N/A,user1@xxx.com,Update version
+18,2021-04-02 23:12:12,Bar Mechanism,Bar Wavy Model,user1@xxx.com,Update Part Metadata
+19,2021-04-02 23:12:11,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+20,2021-04-02 23:12:11,Bar Mechanism,Part Studio 1,user1@xxx.com,Update Part Metadata
+21,2021-04-02 23:12:11,Bar Mechanism,Lead Screw,user1@xxx.com,Update Part Metadata
+22,2021-04-02 23:12:11,Bar Mechanism,Part Studio (2),user1@xxx.com,Update Part Metadata
+23,2021-04-02 23:12:11,Bar Mechanism,N/A,user1@xxx.com,Create version
+24,2021-04-02 23:09:26,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 2
+25,2021-04-02 23:09:22,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+26,2021-04-02 23:09:22,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 5
+27,2021-04-02 23:09:22,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+28,2021-04-02 22:59:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+29,2021-04-02 22:59:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+30,2021-04-02 22:56:32,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Extrude 14
+31,2021-04-02 22:56:32,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+32,2021-04-02 22:56:22,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+33,2021-04-02 22:56:20,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+34,2021-04-02 22:56:20,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Sketch 14
+35,2021-04-02 22:56:20,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+36,2021-04-02 22:55:26,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+37,2021-04-02 22:55:22,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Extrude 13
+38,2021-04-02 22:55:22,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+39,2021-04-02 22:55:13,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+40,2021-04-02 22:55:10,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Sketch 8
+41,2021-04-02 22:55:10,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+42,2021-04-02 22:55:10,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+43,2021-04-02 22:54:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+44,2021-04-02 22:54:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+45,2021-04-02 22:54:44,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+46,2021-04-02 22:53:59,Bar Mechanism,Part Studio (1),user1@xxx.com,Edit : Transform 1
+47,2021-04-02 22:53:59,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+48,2021-04-02 22:53:45,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+49,2021-04-02 22:53:27,Bar Mechanism,Part Studio (1),user1@xxx.com,Delete  : Transform 2
+50,2021-04-02 22:53:27,Bar Mechanism,Part Studio (1),user1@xxx.com,Delete part studio feature
+51,2021-04-02 22:53:22,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+52,2021-04-02 22:53:10,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+53,2021-04-02 22:52:45,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+54,2021-04-02 22:52:36,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+55,2021-04-02 22:52:24,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+56,2021-04-02 22:52:24,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Transform 2
+57,2021-04-02 22:52:13,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+58,2021-04-02 22:52:07,Bar Mechanism,Part Studio (1),user1@xxx.com,Delete  : Transform 2
+59,2021-04-02 22:52:07,Bar Mechanism,Part Studio (1),user1@xxx.com,Delete part studio feature
+60,2021-04-02 22:51:54,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Transform 2
+61,2021-04-02 22:51:54,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+62,2021-04-02 22:51:06,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+63,2021-04-02 22:49:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+64,2021-04-02 22:49:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+65,2021-04-02 22:48:34,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Extrude 12
+66,2021-04-02 22:48:34,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+67,2021-04-02 22:48:26,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+68,2021-04-02 22:48:23,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Sketch 7
+69,2021-04-02 22:48:23,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+70,2021-04-02 22:48:23,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+71,2021-04-02 22:45:54,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+72,2021-04-02 22:44:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+73,2021-04-02 22:44:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+74,2021-04-02 22:44:07,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+75,2021-04-02 22:43:58,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+76,2021-04-02 22:43:28,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Extrude 6
+77,2021-04-02 22:43:28,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+78,2021-04-02 22:43:19,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+79,2021-04-02 22:43:13,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+80,2021-04-02 22:43:13,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+81,2021-04-02 22:43:13,Bar Mechanism,Part Studio (1),user1@xxx.com,Insert feature : Sketch 6
+82,2021-04-02 22:41:36,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+83,2021-04-02 22:41:24,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+84,2021-04-02 22:41:18,Bar Mechanism,Part Studio (1),user1@xxx.com,Add part studio feature
+85,2021-04-02 22:40:34,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+86,2021-04-02 22:40:24,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+87,2021-04-02 22:40:21,Bar Mechanism,Part Studio (1),user1@xxx.com,Show Sketch 5
+88,2021-04-02 22:40:02,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 12
+89,2021-04-02 22:39:55,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+90,2021-04-02 22:39:48,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+91,2021-04-02 22:39:47,Bar Mechanism,Part Studio (1),user1@xxx.com,Update Part Metadata
+92,2021-04-02 22:39:38,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+93,2021-04-02 22:39:35,Bar Mechanism,Part Studio (1),user1@xxx.com,Show Sketch 12
+94,2021-04-02 22:39:32,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+95,2021-04-02 22:39:30,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+96,2021-04-02 22:39:20,Bar Mechanism,N/A,user1@xxx.com,Cancel Operation
+97,2021-04-02 22:39:16,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+98,2021-04-02 22:39:05,Bar Mechanism,Part Studio (1),user1@xxx.com,Show Sketch 13
+99,2021-04-02 22:38:07,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 12
+100,2021-04-02 22:38:01,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+101,2021-04-02 22:38:01,Bar Mechanism,Part Studio (1),user1@xxx.com,Edit : Sketch 12
+102,2021-04-02 22:38:01,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+103,2021-04-02 22:37:26,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+104,2021-04-02 22:37:23,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 11
+105,2021-04-02 22:37:15,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+106,2021-04-02 22:37:15,Bar Mechanism,Part Studio (1),user1@xxx.com,Edit : Sketch 11
+107,2021-04-02 22:37:15,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+108,2021-04-02 22:36:59,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+109,2021-04-02 22:36:52,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 10
+110,2021-04-02 22:36:33,Bar Mechanism,Part Studio (1),user1@xxx.com,Commit add or edit of part studio feature
+111,2021-04-02 22:36:33,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+112,2021-04-02 22:36:33,Bar Mechanism,Part Studio (1),user1@xxx.com,Edit : Sketch 10
+113,2021-04-02 22:35:39,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+114,2021-04-02 22:35:34,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 9
+115,2021-04-02 22:35:30,Bar Mechanism,Part Studio (1),user1@xxx.com,Add or modify a sketch
+116,2021-04-02 22:35:13,Bar Mechanism,Part Studio (1),user1@xxx.com,Start edit of part studio feature
+117,2021-04-02 22:35:08,Bar Mechanism,Part Studio (1),user1@xxx.com,Hide Sketch 5
+118,2021-04-02 22:35:05,Bar Mechanism,Part Studio (1),user1@xxx.com,Show Sketch 5
+119,2021-04-02 22:34:54,Bar Mechanism,Part Studio (1),user1@xxx.com,Show Sketch 10
+120,2021-04-02 22:34:52,Bar Mechanism,Part Studio (1),user1@xxx.com,Show Sketch 11
+121,2021-04-02 22:34:46,Bar Mechanism,Part Studio (1),user1@xxx.com,Show Sketch 12
+122,2021-04-02 22:34:13,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO opened by USER1
+123,2021-04-02 22:34:13,Bar Mechanism,Bar Wavy Model,user1@xxx.com,Tab Bar Wavy Model of type PARTSTUDIO closed by USER1
+124,2021-04-02 22:34:12,Bar Mechanism,Bar Wavy Model,user1@xxx.com,Tab Bar Wavy Model of type PARTSTUDIO opened by USER1
+125,2021-04-02 22:34:11,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO closed by USER1
+126,2021-04-02 22:34:09,Bar Mechanism,Part Studio 1,user1@xxx.com,Tab Part Studio 1 of type PARTSTUDIO closed by USER1
+127,2021-04-02 22:34:09,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO opened by USER1
+128,2021-04-02 22:34:07,Bar Mechanism,Part Studio 1,user1@xxx.com,Tab Part Studio 1 of type PARTSTUDIO opened by USER1
+129,2021-04-02 22:34:06,Bar Mechanism,Part Studio (2),user1@xxx.com,Tab Part Studio (2) of type PARTSTUDIO closed by USER1
+130,2021-04-02 22:34:04,Bar Mechanism,Part Studio (2),user1@xxx.com,Tab Part Studio (2) of type PARTSTUDIO opened by USER1
+131,2021-04-02 22:34:03,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO closed by USER1
+132,2021-04-02 22:34:01,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO opened by USER1
+133,2021-04-02 22:34:00,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY closed by USER1
+134,2021-04-02 22:33:55,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO closed by USER1
+135,2021-04-02 22:33:55,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY opened by USER1
+136,2021-04-02 22:33:50,Bar Mechanism,Part Studio (1),user1@xxx.com,Tab Part Studio (1) of type PARTSTUDIO opened by USER1
+137,2021-04-02 22:33:49,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY closed by USER1
+138,2021-04-02 22:31:56,Bar Mechanism,N/A,user1@xxx.com,Open document
+139,2021-04-02 22:31:56,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY opened by USER1
+140,2021-03-19 23:31:05,Bar Mechanism,N/A,user1@xxx.com,Close document
+141,2021-03-19 23:31:05,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY closed by USER1
+142,2021-03-19 23:30:56,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY opened by USER1
+143,2021-03-19 23:30:56,Bar Mechanism,N/A,user1@xxx.com,Open document
+144,2021-03-19 23:25:33,Bar Mechanism,N/A,user1@xxx.com,Close document
+145,2021-03-19 23:25:33,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY closed by USER1
+146,2021-03-19 23:11:34,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY opened by USER1
+147,2021-03-19 23:11:33,Bar Mechanism,N/A,user1@xxx.com,Open document
+148,2021-03-16 04:23:41,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY closed by USER1
+149,2021-03-16 04:23:41,Bar Mechanism,N/A,user1@xxx.com,Close document
+150,2021-03-16 04:23:34,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY opened by USER1
+151,2021-03-16 04:23:33,Bar Mechanism,N/A,user1@xxx.com,Open document
+152,2021-03-05 22:22:30,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY closed by USER1
+153,2021-03-05 22:22:30,Bar Mechanism,N/A,user1@xxx.com,Close document
+154,2021-03-05 22:22:18,Bar Mechanism,Assembly (straight bar),user1@xxx.com,Tab Assembly (straight bar) of type ASSEMBLY opened by USER1
+155,2021-03-05 22:22:17,Bar Mechanism,N/A,user1@xxx.com,Open document

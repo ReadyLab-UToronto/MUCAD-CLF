@@ -37,7 +37,11 @@ with open("Counts.csv", 'w') as record_csv:
 The following functions allow some sample visualizations of the data (storing counts in a csv from 
 the previous step is required). 
 Usage: Uncomment one of the following to create plots. 
-Optional: specify figure size by adding figsize=(width, height) to the plotting functions
+Optional: 
+        specify figure size by adding figsize=(width, height) to the plotting functions
+        e.g., plotting.design_space_percentage(count_data, fig_size=(9, 7))
+        change the name of the saved figure by adding save_fig=NAME to the plotting functions 
+        e.g., plotting.design_space_percentage(count_data, save_fig="sample")
 """
 count_data = pd.read_csv("Counts.csv")
 # plotting.design_space_percentage(count_data)
