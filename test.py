@@ -8,7 +8,7 @@ from action_count_plotting import plotting
 counts = {}
 
 # Analyze all files in the "sample_audit_trails" folder
-directory = "../sample_audit_trails/"
+directory = "sample_audit_trails/"
 for _, _, files in os.walk(directory):
     for File in files:
         if File.endswith(".csv"):
@@ -22,7 +22,7 @@ should be sufficient for simple comparisons. However, storing counts in a csv is
 using the plotting functions in the next step. 
 """
 # Record counts in a new csv file
-with open("Counts.csv", 'w') as record_csv:
+with open("sample_outputs/Counts.csv", 'w') as record_csv:
     writer = csv.writer(record_csv)
     writer.writerow(["File Name", "Sketching", "3D Features", "Mating", "Visualizing",
                      "Browsing", "Other Organizing", "Creating", "Editing", "Deleting",
@@ -43,7 +43,7 @@ Optional:
         change the name of the saved figure by adding save_fig=NAME to the plotting functions 
         e.g., plotting.design_space_percentage(count_data, save_fig="sample")
 """
-count_data = pd.read_csv("Counts.csv")
-# plotting.design_space_percentage(count_data)
-# plotting.action_type_percentage(count_data)
-# plotting.cr_ratio(count_data)
+count_data = pd.read_csv("sample_outputs/Counts.csv")
+plotting.design_space_percentage(count_data, save_fig="sample_outputs/design_space_plot")
+plotting.action_type_percentage(count_data, save_fig="sample_outputs/action_type_plot")
+plotting.cr_ratio(count_data, save_fig="sample_outputs/CR_ratio_plot")
