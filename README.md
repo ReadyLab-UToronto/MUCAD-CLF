@@ -1,8 +1,14 @@
 # The Multi-User Computer-Aided Design Collaborative Learning Framework (MUCAD-CLF) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5504307.svg)](https://doi.org/10.5281/zenodo.5504307)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-g6d7WVfgTI_sNKi2jvCz2_OtfWF7Ffd?usp=sharing)
+
 Code available in this repository aims to provide an efficient tool to visualize and compare users' 
 audit trail data from [Onshape Enterprise Analytics](https://www.onshape.com/en/features/analytics).
-The MUCAD-CLF was first published in [this journal paper](). If you are using codes in this repository 
-for research, please cite our paper for reference.   
+The MUCAD-CLF was first published in [this journal paper](https://doi.org/10.1016/j.aei.2021.101446). 
+If you are using codes in this repository for research, please cite our paper for reference.
+
+Deng Y, Mueller M, Rogers C, Olechowski A. The Multi-User Computer-Aided Design Collaborative Learning Framework. _Adv Eng Informatics_. 2022;51:101446. doi:10.1016/j.aei.2021.101446
 
 ## Table of contents
 * [General Info](#general-info)
@@ -33,7 +39,7 @@ and apply to new data for analysis:
 1. Use the interactive Jupyter notebook version shared in Google Colaboratory through 
 [this link](https://colab.research.google.com/drive/1-g6d7WVfgTI_sNKi2jvCz2_OtfWF7Ffd?usp=sharing). 
 **(Recommended for users with no/little programming experience)**
-2. Download or clone this repository to a local Python IDE for more flexible use and edit.   
+2. Download or clone this repository to a local Python IDE for more flexible use and edits.   
 
 Structure of this repository: 
 * `action_classification` contains the two action classification methods that each organize actions in six different categories 
@@ -55,11 +61,11 @@ to access the view-only shared code.
 3. Follow instructions in the file to upload and analyze your data.   
 
 If cloning the entire project, please follow these steps: 
-1. Download this repository as you would for any other GitHub project. 
+1. Download or clone this repository as you would for any other GitHub project. 
 2. Download all relevant audit trails for analysis from your Onshape Enterprise account in CSV format, 
-following steps shown in the image below. (Plots to be generated will be used to compare data 
+following steps shown in the image below. (Plots to be generated will compare data 
 between each audit trail analyzed. It is recommended to download audit trails separately for each 
-file and/or user to be analyzed.)
+Onshape document and/or user to be analyzed.)
 3. Rename the CSV files if necessary (file names will be used to format output). 
 4. Place all unzipped audit trial files into the `sample_audit_trails` folder. 
 5. Read, modify, and run `test.py` for a quick demonstration in any Python IDE of your choice.  
