@@ -14,7 +14,7 @@ for _, _, files in os.walk(directory):
         if File.endswith(".csv"):
             with open(directory + File, 'r') as audit_trail_csv:
                 reader = csv.reader(audit_trail_csv)
-                counts[File[:-4]] = aggregate_count.aggregate_count(reader)
+                counts = {**counts, **aggregate_count.aggregate_count(reader, File[:-4])}
 
 """
 The following step may be optional for small-scale experiments or testing, whereas print(counts) 
@@ -43,7 +43,16 @@ Optional:
         change the name of the saved figure by adding save_fig=NAME to the plotting functions 
         e.g., plotting.design_space_percentage(count_data, save_fig="sample")
 """
+order_by_count = False
+"""
+Two options for displaying the counts in the plots: 
+1. order_by_count = False: users are ordered in alphabetical order 
+2. order_by_count = True: users are ordered from the highest to the lowest total action counts  
+"""
 count_data = pd.read_csv("sample_outputs/Counts.csv")
+if order_by_count:
+    count_data = count_data.sort_values(by=["Total"], ascending=False)
+
 plotting.design_space_percentage(count_data, save_fig="sample_outputs/design_space_plot")
 plotting.action_type_percentage(count_data, save_fig="sample_outputs/action_type_plot")
 plotting.cr_ratio(count_data, save_fig="sample_outputs/CR_ratio_plot")
