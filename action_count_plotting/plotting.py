@@ -71,7 +71,7 @@ def action_type_percentage(df: pd.DataFrame, fig_size=(9, 8), save_fig="") -> No
     _plot_percentage(df, category_names, fig_size, save_fig)
 
 
-def cr_ratio(df: pd.DataFrame, fig_size=(6, 5), save_fig="") -> None:
+def cr_ratio(df: pd.DataFrame, fig_size=(6, 6), save_fig="") -> None:
     """
     Visualize the creation/revision ratio of every individual user
     :param df: data read from Counts.csv in pandas DataFrame
@@ -94,6 +94,44 @@ def cr_ratio(df: pd.DataFrame, fig_size=(6, 5), save_fig="") -> None:
     ax.set_xlabel("Users")
     ax.bar_label(p, fmt="%.2f", label_type='edge', padding=2)
 
+    plt.tight_layout()
+    if save_fig:
+        plt.savefig(save_fig + ".png")
+    plt.show()
+
+
+def plot_contribution(df: pd.DataFrame, analyzing_category: str, fig_size=(6, 6),
+                      save_fig="") -> None:
+    """
+    Visualize the percentage contribution of every individual user in the specified action category.
+    :param df: data read from Counts.csv in pandas DataFrame
+    :param analyzing_category:
+    :param fig_size: (Optional) specified figure size in (width, height)
+    :param save_fig: (Optional) if not None, the plot will be saved with the specified name in png
+    :return: a plot is shown and saved if specified
+    """
+    data = pd.DataFrame(df)
+    file_total = df[analyzing_category].sum()
+    data["contri"] = df[analyzing_category] / file_total
+    contri = df["contri"].to_numpy()
+    user_labels = df["User Name"].to_numpy(dtype=str)
+
+    fig, ax = plt.subplots(figsize=fig_size)
+
+    ind = np.arange(len(user_labels))
+    p = ax.bar(ind, contri)
+    ax.set_ylabel('Percentage ' + analyzing_category + ' Individual Contribution to File')
+    ax.set_xticks(ind)
+    ax.set_xticklabels(user_labels)
+    ax.set_xlabel("Users")
+    for rect in p:
+        height = rect.get_height()
+        ax.annotate('{:.2f}'.format(height),
+                    xy=(rect.get_x() + rect.get_width() / 2, height),
+                    xytext=(0, 3),  # 3 points vertical offset
+                    textcoords="offset points",
+                    ha='center', va='bottom')
+    plt.xticks(rotation=90)
     plt.tight_layout()
     if save_fig:
         plt.savefig(save_fig + ".png")
