@@ -1,5 +1,5 @@
 # The Multi-User Computer-Aided Design Collaborative Learning Framework (MUCAD-CLF) 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5748151.svg)](https://doi.org/10.5281/zenodo.5748151)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5504306.svg)](https://doi.org/10.5281/zenodo.5504306)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1N2NPF4MIhPmCR7keZnVtfhdxBfkYBUWF?usp=sharing)
 
