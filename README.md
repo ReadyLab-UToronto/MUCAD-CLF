@@ -26,12 +26,12 @@ creatively plotting the counts for visaulization and comparison.
 
 Design Space Classification 
 <p align="center">
-<img src="https://drive.google.com/uc?id=1JMz5HH1T0ELfCtZg7x-3Tb5I4kekn9NR" width="600">
-</p>
+<img src="asset/design_space_class.png" width="100%" alt='design_space_class'>
+</p> 
 
 Action Type Classification 
 <p align="center">
-<img src="https://drive.google.com/uc?id=196B9Y1uIy1OdlBS9psyHSQ4fIW-6clsy" width="600">
+<img src="asset/action_type_class.png" width="100%" alt='action_type_class'>
 </p>
 
 This open-sourced repository provides two options for the public to replicate our research method 
@@ -64,18 +64,15 @@ to access the view-only shared code.
 
 If cloning the entire project, please follow these steps: 
 1. Download or clone this repository as you would for any other GitHub project. 
-2. Download all relevant audit trails for analysis from your Onshape Enterprise account in CSV format, 
-following steps shown in the image below. (Plots to be generated will compare data 
-between each audit trail analyzed. It is recommended to download audit trails separately for each 
-Onshape document and/or user to be analyzed.)
+2. Download all relevant audit trails for analysis from your Onshape Enterprise account in CSV format, following steps shown in the image below. (Plots to be generated will compare data between each audit trail analyzed. It is recommended to download audit trails separately for each Onshape document and/or user to be analyzed.)
+    - You may want to select "All Results" under "Advanced data options". Otherwise, you will only be able to download a maximun of 500 entries in the audit trail. 
 3. Rename the CSV files if necessary (file names will be used to format output). 
 4. Place all unzipped audit trial files into the `sample_audit_trails` folder. 
 5. Read, modify, and run `test.py` for a quick demonstration in any Python IDE of your choice.  
-6. Aggregate actions count will be recorded in `Counts.csv` in the `sample_outputs` folder, and 
-generated plots will be saved in the directory location specified. 
+6. Aggregate actions count will be recorded in `Counts.csv` in the `sample_outputs` folder, and generated plots will be saved in the directory location specified. 
 
 <p align="center">
-<img src="https://drive.google.com/uc?id=1gY79D68QT0DgM8IhsncjPrkBGajQD00l" width="500">
+<img src="asset/audit_trail_download.png" width="100%" alt='audit_trail'>
 </p>  
 
 ## Maintainers
