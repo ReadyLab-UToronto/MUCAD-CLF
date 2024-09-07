@@ -81,7 +81,7 @@ def cr_ratio(df: pd.DataFrame, fig_size=(6, 6), save_fig="") -> None:
     """
     data = pd.DataFrame(df)
     data["cr"] = df["Creating"] / (df["Editing"] + df["Deleting"] + df["Reversing"])
-    cr = df["cr"].to_numpy()
+    cr = data["cr"].to_numpy()
     user_labels = df["File Name"].to_numpy(dtype=str)
 
     fig, ax = plt.subplots(figsize=fig_size)
@@ -113,7 +113,7 @@ def plot_contribution(df: pd.DataFrame, analyzing_category: str, fig_size=(6, 6)
     data = pd.DataFrame(df)
     file_total = df[analyzing_category].sum()
     data["contri"] = df[analyzing_category] / file_total
-    contri = df["contri"].to_numpy()
+    contri = data["contri"].to_numpy()
     user_labels = df["User Name"].to_numpy(dtype=str)
 
     fig, ax = plt.subplots(figsize=fig_size)
